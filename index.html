@@ -1,23 +1,257 @@
-{% extends '_layout.swig' %}
-{% import '_macro/post.swig' as post_template %}
-{% import '_macro/sidebar.swig' as sidebar_template %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>J1aM1ng&#39;s Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="J1aM1ng Blog">
+<meta property="og:type" content="website">
+<meta property="og:title" content="J1aM1ng&#39;s Blog">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="J1aM1ng&#39;s Blog">
+<meta property="og:description" content="J1aM1ng Blog">
+<meta property="og:locale">
+<meta property="article:author" content="J1aM1ng - hsfq">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="J1aM1ng's Blog" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
 
-{% block title %}{{ config.title }}{% if theme.index_with_subtitle and config.subtitle %} - {{config.subtitle }}{% endif %}{% endblock %}
+  
+  
+<link rel="stylesheet" href="/css/style.css">
 
-{% block page_class %}
-  {% if is_home() %}page-home{% endif -%}
-{% endblock %}
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
 
-{% block content %}
-  <section id="posts" class="posts-expand">
-    {% for post in page.posts %}
-      {{ post_template.render(post, true) }}
-    {% endfor %}
-  </section>
+  
+<meta name="generator" content="Hexo 6.1.0"></head>
 
-  {% include '_partials/pagination.swig' %}
-{% endblock %}
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">J1aM1ng&#39;s Blog</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">Slowly and urgently, moving forward firmly</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Suche"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Suche"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
 
-{% block sidebar %}
-  {{ sidebar_template.render(false) }}
-{% endblock %}
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-作业1" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/03/14/%E4%BD%9C%E4%B8%9A1/" class="article-date">
+  <time class="dt-published" datetime="2022-03-14T14:20:02.000Z" itemprop="datePublished">2022-03-14</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/03/14/%E4%BD%9C%E4%B8%9A1/">云计算 - 作业1</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h4 id="1-1-云使能技术包括哪些技术组件？用一句话简要说明其关键特征"><a href="#1-1-云使能技术包括哪些技术组件？用一句话简要说明其关键特征" class="headerlink" title="1-1 云使能技术包括哪些技术组件？用一句话简要说明其关键特征"></a>1-1 云使能技术包括哪些技术组件？用一句话简要说明其关键特征</h4><ul>
+<li>技术组件<ul>
+<li>宽带网络和Internet架构<ul>
+<li>云用户和云提供者通常利用Internet进行通信，Internet以无中心的供给和管理模型为基础，不受任何集中式实体的控制。</li>
+<li>网络互联架构的主要组件是使用网络路由器和交换机的无连接分组交换与基于路由器的互联。网络带宽和延迟是影响QoS的因素，而网络拥塞对其有巨大影响</li>
+</ul>
+</li>
+<li>数据中心技术<ul>
+<li>数据中心是一种特殊的IT基础设施，用于集中放置IT资源</li>
+</ul>
+</li>
+<li>虚拟化技术<ul>
+<li>服务器虚拟化是指利用虚拟化软件将IT硬件抽象为虚拟服务器。</li>
+<li>虚拟化提供了硬件无关性、服务器整合、资源复制、对资源池更强的支持和灵活的可扩展性。</li>
+<li>实现虚拟服务器既可以采用基于操作系统的虚拟化，也可以采用基于硬件的虚拟化。</li>
+</ul>
+</li>
+<li>Web技术<ul>
+<li>Web技术经常被用于云服务的实现，并在前段用于远程管理云IT资源。</li>
+</ul>
+</li>
+<li>多租户技术<ul>
+<li>使用隔离、数据安全、可恢复性、应用升级、可扩展性、使用计费、数据层隔离</li>
+</ul>
+</li>
+<li>服务技术<ul>
+<li>是事件驱动程序，在运行时拦截消息。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>关键特征<ul>
+<li>所有的云必须连接到网络，同时利用数据中心技术集中存放IT资源，应用虚拟化技术将物理IT资源转换为虚拟IT资源，从而提供了硬件无关性、服务器整合、资源复制、对资源更强的支持和可扩展性；使用Web技术作为云服务的实现介值和管理接口；设计多租户技术使多个用户在逻辑上同时访问一个应用；其中的服务技术是云计算的基石，形成了“作为服务”的云交付模型的基础</li>
+</ul>
+</li>
+</ul>
+<h4 id="1-2-列举至少3种虚拟化软件，并用一句话概括其特点"><a href="#1-2-列举至少3种虚拟化软件，并用一句话概括其特点" class="headerlink" title="1-2 列举至少3种虚拟化软件，并用一句话概括其特点"></a>1-2 列举至少3种虚拟化软件，并用一句话概括其特点</h4><ul>
+<li>VMware workstation：适合单台计算机使用</li>
+<li>Hype-V：由微软开发，对微软的操作系统支持较好</li>
+<li>VirtualBox：支持系统种类很多</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/03/14/%E4%BD%9C%E4%B8%9A1/" data-id="cl0qsm7j80000eh390dxdbom2" data-title="云计算 - 作业1" class="article-share-link">Teilen</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%BA%91%E8%AE%A1%E7%AE%97/" rel="tag">云计算</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BA%91%E8%AE%A1%E7%AE%97/" rel="tag">云计算</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/%E4%BA%91%E8%AE%A1%E7%AE%97/" style="font-size: 10px;">云计算</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archiv</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/03/">March 2022</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">letzter Beitrag</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2022/03/14/%E4%BD%9C%E4%B8%9A1/">云计算 - 作业1</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2022 J1aM1ng - hsfq<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
