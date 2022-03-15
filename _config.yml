@@ -3,12 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: J1aM1ng's Blog
+subtitle: 'Slowly and urgently, moving forward firmly'
+description: 'J1aM1ng Blog'
 keywords:
-author: John Doe
-language: en
+author: J1aM1ng - hsfq
+
+language: zh-Hans
 timezone: ''
 
 # URL
@@ -46,7 +47,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace: ''
   wrap: true
   hljs: false
